@@ -1,0 +1,110 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #e5e7eb;
+  background-color: #0b1220;
+}
+
+body {
+  margin: 0;
+}
+
+.layout {
+  padding: 1.25rem;
+}
+
+header h1 {
+  margin: 0;
+  letter-spacing: 0.08em;
+}
+
+header p {
+  margin-top: 0.25rem;
+  color: #9ca3af;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 14px;
+  padding: 1rem;
+}
+
+.map-box {
+  position: relative;
+  height: 280px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #172554, #1e293b);
+  border: 1px solid #334155;
+}
+
+.pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: #020617;
+  border: 0;
+  font-size: 0.66rem;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0.35rem 0.45rem;
+}
+
+.list {
+  margin-top: 0.75rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.assistant-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.assistant-form input {
+  flex: 1;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #020617;
+  color: #e5e7eb;
+  padding: 0.5rem;
+}
+
+.assistant-form button {
+  border-radius: 8px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  padding: 0.5rem 0.8rem;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(120px, 1fr));
+  gap: 0.8rem;
+}
+
+.metrics article {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  padding: 0.7rem;
+  display: grid;
+}
+
+.metrics span {
+  color: #94a3b8;
+  font-size: 0.8rem;
+}
